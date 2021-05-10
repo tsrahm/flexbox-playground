@@ -1,0 +1,124 @@
+.container {
+  min-height: 100vh;
+  padding: 0 2rem;
+  align-items: center;
+}
+
+.link {
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.link:hover,
+.link:focus,
+.link:active {
+  color: #0070f3;
+}
+
+.link h3 {
+	margin: .2rem 0;
+  font-size: 1.5rem;
+}
+
+.main {
+  padding-bottom: 1rem;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.flexContainer {
+	position: relative;
+	display: flex;
+	min-height: 200px;
+	box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+	margin-bottom: 30px;
+}
+
+.draggableX {
+  display: flex;
+	position: absolute;
+	right: -4px;
+	top: calc(50% - 20px);
+	width: 6px;
+	height: 40px;
+	background-color: gray;
+	font-size: 10px;
+	color: lightgray;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.draggableX:hover {
+	cursor: pointer;
+}
+
+.draggableY {
+  display: flex;
+	position: absolute;
+	left: calc(50% - 20px);
+	bottom: -4px;
+	width: 40px;
+	height: 6px;
+	background-color: gray;
+	color: lightgray;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.draggableY:hover {
+	cursor: pointer;
+}
+
+.flexItem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	margin: 5px;
+	font-size: 40px;
+	color: white;
+	background-color: black;
+}
+
+.flexProperties {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flexProperties > :first-child {
+	margin-right: 40px;
+}
+
+.select {
+	display: inline-block;
+	width: 150px;
+	height: 24px;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+input.select {
+	border: 1px solid black;
+}
+
+.flexItemsProperties .select {
+	width: 110px;
+}
+
+.button {
+	width: 120px;
+	height: 35px;
+	margin-right: 20px;
+	font-size: 16px;
+}
