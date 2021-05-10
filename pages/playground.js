@@ -4,6 +4,7 @@ import Link from 'next/link'
 import styles from '../styles/Playground.module.css'
 
 export default function Playground() {
+	// Mess with Flexbox settings
 	const [width, setWidth] = useState('100%')
 	const [widthPosition, setWidthPosition] = useState(null)
 	const [height, setHeight] = useState('auto')
